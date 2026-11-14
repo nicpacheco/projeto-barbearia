@@ -11,6 +11,11 @@
     --fonte-destaque: 'Cinzel', serif;
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     font-family: var(--fonte-padrao);
 }
@@ -23,19 +28,42 @@ h1, h2, h3{
 header{
     background-color: var(--cor01);
     margin: auto;
+    padding: 10px;
+}
+
+header h1{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.2em;
 }
 
 header p{
+    text-align: center;
     color: var(--cor02);
 }
 
 header a{
     color: var(--cor03);
     background-color: var(--cor02);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+header a:hover{
+    background-color: #816d3d;
+    color: #C6A75E;
+    transition-duration: 0.7s;
+}
+
+.botao {
+    text-align: center;
+    padding: 20px;
 }
 
 nav{
-    background-color: var(--cor01);   
+    background-color: var(--cor01);  
+    padding-bottom: 15px; 
 }
 
 nav img{
@@ -45,6 +73,10 @@ nav img{
 nav a{
     color: var(--cor03);
     background-color: var(--cor02);
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: right;
 }
 
 div img{
