@@ -18,6 +18,7 @@
 
 body{
     font-family: var(--fonte-padrao);
+    background-color: var(--cor02);
 }
 
 h1, h2, h3{
@@ -34,12 +35,13 @@ header{
 header h1{
     text-align: center;
     padding-top: 10px;
-    font-size: 1.2em;
+    font-size: 2.5em;
 }
 
 header p{
     text-align: center;
     color: var(--cor02);
+    margin-top: 2px;
 }
 
 header a{
@@ -59,6 +61,7 @@ header a:hover{
 .botao {
     text-align: center;
     padding: 20px;
+    margin-top: 10px;
 }
 
 nav{
@@ -83,14 +86,62 @@ div img{
     width: 200px;
 }
 
-div#cabelos-decoração{
-    width: 10px;
-    display: inline-block;
-}
-
 footer{
     background-color: var(--cor01);
     color: var(--cor03);
     text-align: center;
     padding: 10px;
+}
+.cabelos-decoracao{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cabelos-decoracao img {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+main{
+    border-radius: 10px;
+    text-align: justify;
+    margin: auto;
+    background-color: white;
+    width: 1000px;
+    margin-bottom: 10px;
+}
+
+main h2{
+    padding: 10px;
+    font-size: 2em;
+}
+
+main h3{
+    padding: 10px;
+    font-size: 1.4em;
+}
+
+main p{
+    padding: 10px;
+    text-indent: 20px;
+    line-height: 25px;
+}
+
+main img{
+    width: 100%;
+}
+
+main span{
+    color: #a78a48;
+    font-size: larger;
+}
+
+main.equipe img{
+    object-fit: cover;
+    object-position:  top center;
+    height: 500px;
 }
